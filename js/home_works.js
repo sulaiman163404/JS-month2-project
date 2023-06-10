@@ -1,4 +1,4 @@
-const emailCheck = prompt('Введите ваш email ...   (пример - xxxxxxxxxx@gmail.com')
+const emailCheck = prompt('Введите ваш email ...   (пример - xxxxxxxxxx@gmail.com)')
 const regExp = /^[a-zA-Z0-9._%+-]+@gmail\.com$/ig
 
 if (emailCheck.match(regExp)){
